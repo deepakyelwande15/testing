@@ -1,56 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
+import json
 
-<head>
-  <title>my web page</title>
-  <style>
-    .bb{
-      background-color: tomato;
+def lambda_handler(event, context):
+    # TODO implement
+    return {
+        'statusCode': 200,
+        'body': json.dumps('Hello from Lambda!....... (Modified v0.2')
     }
-    *{
-      margin: 0;
-      padding: 0;
-    }
-    h1{
-      color:navy
-    }
-  </style>
-</head>
-
-<body bgcolor="orange"></body>
-
-<marquee><img src="img/ram.png" alt="ram" width="200" height="100"></marquee>
-<hr>
-
-<div class="bb">
-<p>
-
-  <h1> We generate solution that provide a function of business.</h1>
-
-</p>
-<br>
-
-<h3>CONTRACT BASED STAFFING</h3>
-<p>Is your organization looking at increasing the headcount in short span of time without increasing your fixed cost?
-</p>
-<br>
-<h3>PERMANENT STAFFING</h3>
-<p>At Brainworks Business Solutions, we believe in transparent, and ethical approach to screening, interviewing, and
-  appointing an employee.</p><br>
-
-<h3>TEMPORARY STAFFING</h3>
-<p>Custom application development is a process oriented activity in Aventurine Technologies Softwares offshore facility.
-  All software is developed in our facility using the Software Factory approach.</p>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-</body>
